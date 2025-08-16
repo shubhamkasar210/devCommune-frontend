@@ -11,7 +11,7 @@ const UserCard = ({ user }) => {
         {age && gender && <p>{age + ", " + gender}</p>}
         {about}
         <p>If a dog chews shoes whose shoes does he choose?</p>
-        <div className="card-actions justify-end">
+        <div className="card-actions justify-center">
           <button className="btn btn-primary">Ignore</button>
           <button className="btn btn-secondary">Interested</button>
         </div>
