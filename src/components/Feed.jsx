@@ -17,9 +17,7 @@ const Feed = () => {
         withCredentials: true,
       });
       dispatch(addFeed(res.data));
-    } catch (error) {
-      console.error(error);
-    }
+    } catch (error) {}
   };
 
   useEffect(() => {
@@ -27,11 +25,11 @@ const Feed = () => {
   }, []);
 
   return (
-    feed && (
+    feed?.data[0] && (
       <div className="flex justify-center py-10">
         <UserCard user={feed?.data[0]} />
       </div>
-    )
+    ) || <h2 className="flex justify-center py-10">no new users found!!!</h2>
   );
 };
 
