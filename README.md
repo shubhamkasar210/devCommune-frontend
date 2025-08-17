@@ -1,3 +1,21 @@
+devCommune ( A Social Connection Platform For Developers With Real-time Live Chat )
+
+✅ Built RESTful APIs and handling routing with Express.
+
+✅ Implemented JWT-based authentication and secure password encryption.
+
+✅ Database modeling and relationships using Mongoose (ref & populate).
+
+✅ Error handling, middleware, and API validation for secure data flow.
+
+✅ Created a dynamic feed API with pagination for scalable content delivery.
+
+✅ Planned and designed both High-Level (HLD) and Low-Level (LLD) architecture.
+
+✅ Built the UI with React, Tailwind CSS, doing state management using redux, and connecting APIs.
+
+✅ Optimized database performance with compound indexes and efficient queries.
+
 <img width="1359" height="650" alt="Screenshot-1" src="https://github.com/user-attachments/assets/cace4e6a-b31f-456c-b509-cd75be5d1d9b" />
 <img width="1366" height="768" alt="Screenshot-7" src="https://github.com/user-attachments/assets/3781d435-be84-4bd0-b74b-bf22a8824ebd" />
 <img width="1366" height="768" alt="Screenshot-6" src="https://github.com/user-attachments/assets/0310a229-e431-41cf-ae89-ac8d28466998" />
