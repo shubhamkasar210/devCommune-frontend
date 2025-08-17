@@ -24,12 +24,15 @@ const Feed = () => {
     getFeed();
   }, []);
 
+  if (feed?.data.length === 0)
+    return <h1 className="flex justify-center my-10"> No Users Found</h1>;
+
   return (
     feed?.data[0] && (
       <div className="flex justify-center py-10">
         <UserCard user={feed?.data[0]} />
       </div>
-    ) || <h2 className="flex justify-center py-10">no new users found!!!</h2>
+    )
   );
 };
 
