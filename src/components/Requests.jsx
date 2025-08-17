@@ -49,7 +49,7 @@ const Requests = () => {
         return (
           <div
             key={_id}
-            className=" flex justify-between items-center m-4 p-4 rounded-lg bg-base-300  mx-auto"
+            className=" flex m-4 p-4 rounded-lg bg-base-300 w-1/2 mx-auto"
           >
             <div>
               <img
